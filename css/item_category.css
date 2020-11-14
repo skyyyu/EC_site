@@ -1,0 +1,29 @@
+#product_list .post {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#product_list .clearfix {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#product_list .thumbnail_box {
+    width: 25%;
+    padding-right: 25px;
+    margin-bottom: 35px;
+}
+
+#product_list .thumbnail_box:nth-child(4n) {
+    padding-right: 0;
+}
+
+#product_list .thumimg img {
+    width: 100%;
+    height: 160px;
+}
+
+#product_list .thumtitle a {
+    font-size: 20px;
+}

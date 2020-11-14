@@ -1,0 +1,13 @@
+#search .two-column {
+    width: 100%;
+}
+
+#search .serch_result {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#search .item_list {
+    width: 21%;
+}

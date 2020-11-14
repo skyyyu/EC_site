@@ -1,0 +1,152 @@
+#item-single .post {
+    width: 100%;
+}
+
+#item-single .item_page {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#item-single .itemimg {
+    width: 46%;
+}
+
+#item-single .itemimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#item-single .itemimg .attachment-135x135 {
+    object-fit: contain;
+}
+
+#item-single .item_state {
+    width: 54%;
+    padding: 0 15px;
+}
+
+#item-single h2.item_name {
+	margin-bottom: 10px;
+	padding: 3px 0;
+	font-size: 24px;
+	line-height: 18px;
+}
+
+#item-single .field .field_price {
+    color: #d80000;
+    width: auto;
+	margin: 20px 0;
+	padding: 0px;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#item-single .field .field_name {
+    text-align: left;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+#item-single .skuform  .skuquantity {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    padding: 0 4px;
+}
+
+#item-single .item_box,
+#search .item_box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: unset;
+}
+
+#item-single .item_list,
+#search .item_list {
+    width: 19%;
+    padding-right: 3px;
+}
+
+#item-single .item_list img,
+#item-single .topic_list img,
+#search .item_list img,
+#search .topic_list img {
+    height: 170px;
+}
+
+#item-single .item_wrap {
+    margin: 80px 0 80px;
+}
+
+ul.slides {
+    height: 424px;
+    width: 424px;
+    position: relative;    
+    margin-bottom: 20px;
+}
+
+ul.slides li {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style:none;
+    height: 424px;
+    width: 424px;
+    transition: .4s;
+}
+
+ul.slides li.active {
+    opacity: 1;
+}
+
+
+ul.slides li img {
+	object-fit: cover;
+}
+
+.itemsubimg {
+    display: flex;
+}
+
+.itemsubimg li{
+    flex:1;
+    margin-right: 1%;
+    cursor: pointer;
+    transition: .4s;
+    max-width: 20%;
+}
+
+.itemsubimg li:hover{
+    opacity: .7;
+}
+
+#itempage .itemsubimg li:last-child {
+    margin-right: 0;
+}
+
+#itempage .itemsubimg li img{
+    padding: 0;
+    object-fit: cover !important;
+    max-width: 100%;
+    height: 84px;
+}
+
+#itempage .skubutton {
+    width: 80%;
+    background-color: #d80000;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+	transition: .4s;
+}
+
+#itempage .skubutton:hover {
+	opacity: 0.7;
+}
+

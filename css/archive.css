@@ -1,0 +1,15 @@
+#archive .two-column {
+    width: 100%;
+}
+
+#archive .item_list {
+    width: 25%;
+}
+
+#archive .item_box {
+    justify-content: left;
+}
+
+#archive .item_list img {
+    object-fit: cover;
+}

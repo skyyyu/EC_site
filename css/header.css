@@ -1,0 +1,106 @@
+a {
+	text-decoration: none;
+}
+
+#header .header_top {
+	display: flex;
+	width: 100%;
+    justify-content: space-between;
+}
+
+#header h1#site-title, div#site-title {
+	padding: 40px 0px 10px 10px;
+}
+
+#header .header_right {
+	padding: 30px 0 20px;
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+#header .header_right a {
+  padding: 8px 0;
+  margin-left: 20px;
+}
+
+#header .usces_login_a,
+#header .usces_logout_a {
+  width: 34px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  color: transparent;
+  padding: 0 !important;
+  margin-left: 10px;
+}
+
+#header .usces_login_a::before {
+  content: "\f2f6";
+}
+#header .usces_logout_a::before {
+  content: "\f2f5";
+}
+f2f5
+
+#header .usces_login_a::before,
+#header .usces_logout_a::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #333;
+  position: absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  margin: auto;
+  height: 34px;
+  font-size: 34px;
+  line-height: 100%;
+}
+
+#header .header_right i {
+  font-size: 30px;
+  color: #333;
+}
+
+#header .search_form {
+	position: relative;
+    box-sizing: border-box;
+    display: block;
+    padding: 3px 10px;
+    height: 3.5em;
+    width: 250px;
+    overflow: hidden;
+    border-bottom: solid 1px #333;
+    margin-right: 10px;
+}
+
+#header .search_form input[type="text"]{
+  border: none;
+  height: 2.0em;
+  width: 185px;
+  font-size: 18px;
+}
+
+#header .search_form input[type="text"]:focus {
+  outline: 0;
+}
+
+#header .search_form input[type="submit"]{
+  cursor: pointer;
+  font-family: FontAwesome;
+  font-size: 1.3em;
+  border: none;
+  background: none;
+  position: absolute;
+  height: 2.5em;
+  outline : none;
+}
+
+#header .search_form ::-webkit-input-placeholder {
+  color: #333;
+}
+
+
+

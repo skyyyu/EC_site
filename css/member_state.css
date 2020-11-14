@@ -1,0 +1,31 @@
+#member_state .two-column {
+    margin: 0 auto;
+}
+
+#member_state .post {
+    width: 100%;
+}
+
+#member_state .logout_member {
+    margin-left: 15px;
+}
+
+#member_state .send {
+    width: 80%;
+    margin: 20px auto 0;
+}
+
+#member_state .send input{
+    width: 160px;
+    font-size: 16px;
+}
+
+#member_state input[name="member[mailaddress1]"],
+#member_state input[name="member[password1]"],
+#member_state input[name="member[password2]"] {
+    width: 300px;
+}
+
+#member_state .customer_form th {
+    width: 30%;
+}
